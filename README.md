@@ -85,3 +85,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 12. Created Redux Store with userSlice
 13. Implemented sign out
 14. Update profile picture
+
+## LEACTURE 2
+
+1. BugFix: if user is not logged in redirect /browse to login page and vice versa
+2. Unsubscribed to the onAuthStateChanged callback
+3. Login to TMDB and created project there for API key and token "nowplayingMovies"
+4. Created store for movies and store the api response there
+5. Created custom hook for fetching the data from api and updating it in store
+6. Fetched data for Trailer video and update in store
+7. Embedded the youtube video and make it autoplay and store
