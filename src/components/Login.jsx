@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import Header from "./Header";
-import bg from "./../Assets/background.png";
 import { checkValidate } from "../utils/Validate";
 import {
   createUserWithEmailAndPassword,
@@ -11,6 +10,7 @@ import { updateProfile } from "firebase/auth";
 import { auth } from "../utils/Firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/UserSlice";
+import { bg } from "../utils/Constants";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -25,9 +25,6 @@ const Login = () => {
   };
 
   const handleForm = () => {
-    console.log(email.current.value);
-    console.log(password.current.value);
-
     const msg = checkValidate(email.current.value, password.current.value);
     seterrormsg(msg);
 

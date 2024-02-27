@@ -95,3 +95,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 5. Created custom hook for fetching the data from api and updating it in store
 6. Fetched data for Trailer video and update in store
 7. Embedded the youtube video and make it autoplay and store
+
+## LEACTURE 3
+
+1. GPT search feature
+2. Gpt Search page
+3. Gpt search bar
+4. Multi-language functionality

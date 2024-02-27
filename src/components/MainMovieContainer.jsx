@@ -8,7 +8,6 @@ function MainMovieContainer() {
 
   if (!movie) return; //this is know as early return. if no data is preset return from here
   const mainMovie = movie[0];
-  console.log("main", mainMovie);
 
   const { original_title, overview, id } = mainMovie;
   return (

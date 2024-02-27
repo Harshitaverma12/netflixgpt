@@ -9,4 +9,13 @@ export const API_OPTIONS = {
   },
 };
 
+export const bg =
+  "https://localdstvinstaller.co.za/wp-content/uploads/2018/08/netflix.jpg";
+
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
