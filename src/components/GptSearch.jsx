@@ -6,7 +6,7 @@ import { bg } from "../utils/Constants";
 function GptSearch() {
   return (
     <div>
-      <div className="absolute w-full -z-10">
+      <div className="w-full -z-10 fixed">
         <img className="w-full" src={bg} alt="bg" />
       </div>
       <GptSearchBar />

@@ -102,3 +102,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 2. Gpt Search page
 3. Gpt search bar
 4. Multi-language functionality
+5. Integrate gpt api
