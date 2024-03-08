@@ -62,9 +62,9 @@ const Header = () => {
   };
 
   return (
-    <div className="absolute flex justify-between w-full bg-gradient-to-b from-black z-10">
+    <div className="absolute flex justify-between w-full bg-gradient-to-b from-black z-10 flex-col md:flex-row">
       <img
-        className="w-44"
+        className="w-44 mx-auto md:m-0 "
         style={{ marginTop: "-4rem" }}
         src={logo}
         alt="hello"

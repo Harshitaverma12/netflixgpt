@@ -5,13 +5,15 @@ import { bg } from "../utils/Constants";
 
 function GptSearch() {
   return (
-    <div>
+    <>
       <div className="w-full -z-10 fixed">
-        <img className="w-full" src={bg} alt="bg" />
+        <img className="w-full h-screen object-cover" src={bg} alt="bg" />
       </div>
-      <GptSearchBar />
-      <GptMovieSuggestions />
-    </div>
+      <div className="pt-[30%]">
+        <GptSearchBar />
+        <GptMovieSuggestions />
+      </div>
+    </>
   );
 }
 
